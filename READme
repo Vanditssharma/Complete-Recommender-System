@@ -1,1 +1,38 @@
-This file contains
+To Understand this Repository kindly go through this file
+---------------------------------------------------------
+---------------------------------------------------------
+This repository has 5 files which uses 5000 movies data and are mentioned below with decreasing order of there complexities:
+
+1) Collaborative Filtering
+(Currently under development)
+
+2) Content Based Filtering - Feature Engineering:
+This files has Feature engineeing of the raw data and shows how some important features can be extracted and can be used for recommendation.
+
+3) Demographic Filtering - Trending System:
+This files has Feature engineeing of the raw data and shows how some important features can be calculated at the running time of applications to recommend trending items.
+
+4) Simple EDA of Raw Data
+This is a very basic level of Exploratory Data analysis of the given raw data.
+
+5) READme File
+Contains all the neccesary information required to study this repository.
+--------------------------------------------------------
+--------------------------------------------------------
+
+About the Data
+---------------
+
+Several of the new columns contain json. You can save a bit of time by porting the load data functions [from this kernel]().
+Even in simple fields like runtime may not be consistent across versions. For example, previous dataset shows the duration for Avatar's extended cut while TMDB shows the time for the original version.
+There's now a separate file containing the full credits for both the cast and crew.
+All fields are filled out by users so don't expect them to agree on keywords, genres, ratings, or the like.
+Your existing kernels will continue to render normally until they are re-run.
+
+Inspiration
+Can you categorize the films by type, such as animated or not? We don't have explicit labels for this, but it should be possible to build them from the crew's job titles.
+How sharp is the divide between major film studios and the independents? Do those two groups fall naturally out of a clustering analysis or is something more complicated going on?
+
+Acknowledgements
+This dataset was generated from The Movie Database API. This product uses the TMDb API but is not endorsed or certified by TMDb.
+Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV show
